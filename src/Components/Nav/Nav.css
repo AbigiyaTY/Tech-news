@@ -1,0 +1,17 @@
+.nav {
+  background-color: #fff;
+}
+
+.titleNav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.titleNav a:hover {
+  color: #52ab98;
+}
+
+i {
+  font-size: 25px;
+  color: #52ab98;
+}

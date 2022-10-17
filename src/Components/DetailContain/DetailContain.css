@@ -1,0 +1,47 @@
+.detailContain {
+  margin-left: 20px;
+}
+
+.detailTile {
+  background-color: #c7d9e5;
+  font-size: 18px;
+  color: #000;
+}
+
+.detailVideo {
+  background-color: #f0f1f3;
+  height: 200px;
+  color: #345567;
+}
+
+.detailList {
+  background-color: #2a6877;
+  color: #f0f1f3;
+}
+
+.detailList h6 {
+  font-size: 13px;
+}
+
+.detaiDescription {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 600px) {
+  .detailVideo {
+    height: 300px;
+  }
+
+  .detailTile {
+    font-size: 25px;
+    padding-left: 80px;
+  }
+
+  .detailList h6 {
+    font-size: 14px;
+  }
+
+  .detaiDescription {
+    font-size: 15px;
+  }
+}
