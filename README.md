@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Metrics webapp
 
-> Description the project.
+> This React capstone project that is about building a mobile web application to check a list of metrics (numeric values) that is created making use of React and Redux.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML, CSS, JavaScript.
+- Frameworks: Bootstrap, React.
+- Technologies used: webpack, linters, jest.
 
 ## Live Demo (if available)
 
@@ -18,39 +18,26 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+1. Open terminal or cmd on you local machine and navigate to your desired directory.
+2. **Run**    *'git clone https://github.com/AbigiyaTY/Metrics-webapp.git'*
+3. **Run**   *'code'*
 
 ### Prerequisites
-
-### Setup
+* VS code editor
+* web browswe(chrome Firefox Opera etc)
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+* Git 
+* nodejs 
 
 
+👤 **Author**
 
-## Authors
+* GitHub: [@githubhandle](https://github.com/AbigiyaTY)
+* Twitter: [@twitterhandle](https://twitter.com/AbigiyaTY)
+* LinkedIn: [@LinkedIn](https://www.linkedin.com/in/abigiya-tadesse-6a0052234)
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
