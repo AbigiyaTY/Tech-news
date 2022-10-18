@@ -1,5 +1,9 @@
 .detailContain {
-  margin-left: 20px;
+  margin-left: 40px;
+}
+
+.detailListAll {
+  background-color: #2a6877;
 }
 
 .detailTile {
@@ -8,10 +12,14 @@
   color: #000;
 }
 
-.detailVideo {
+.detailImg {
   background-color: #f0f1f3;
-  height: 200px;
   color: #345567;
+}
+
+.detailImg img {
+  width: max-content;
+  margin-bottom: 10px;
 }
 
 .detailList {
@@ -28,8 +36,8 @@
 }
 
 @media screen and (min-width: 600px) {
-  .detailVideo {
-    height: 300px;
+  .detailImg img {
+    margin-bottom: 0;
   }
 
   .detailTile {

@@ -11,7 +11,7 @@ function Home() {
           <div className="col-12 row topHome">
             <li className="col-6"><img className="homeImg" src={HomeImg} alt="News" /></li>
             <li className="col-6 homeTitle">
-              Latest general news
+              Latest technology news
             </li>
           </div>
           <div className="col-12 row totalStatus">
@@ -24,8 +24,7 @@ function Home() {
                   <i className="fa fa-greater-than py-4" />
                 </NavLink>
                 <h3 className="px-2">
-                  Next US election may
-                  prove most dangerous time for Taiwan, warns veteran US diplomat Chas Freeman
+                  Kanye West to buy right-wing social media app Parler
                 </h3>
               </li>
               <li className="col-6 titleNews">
