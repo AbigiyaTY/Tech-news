@@ -8,7 +8,7 @@ function Nav() {
       <div className="container my-4">
         <div className="row">
           <div className="col-1" />
-          <h2 className="col-3 titleNav"><Link to="/">General News</Link></h2>
+          <h2 className="col-3 titleNav"><Link to="/">Technology News</Link></h2>
           <div className="col-5" />
           <i className="fa fa-microphone col-1 px-1" />
           <i className="fa fa-globe col-1" />
