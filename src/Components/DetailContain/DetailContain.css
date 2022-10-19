@@ -1,0 +1,59 @@
+.detailContain {
+  margin-left: 40px;
+}
+
+.detailListAll {
+  background-color: #2a6877;
+}
+
+.detailTile {
+  background-color: #c7d9e5;
+  font-size: 18px;
+  color: #000;
+}
+
+.detailImg {
+  background-color: #f0f1f3;
+  color: #345567;
+}
+
+.detailImg img {
+  width: max-content;
+  margin-bottom: 10px;
+}
+
+.detailList {
+  background-color: #2a6877;
+  color: #f0f1f3;
+}
+
+.detailList h6 {
+  font-size: 13px;
+}
+
+.detaiDescription {
+  font-size: 14px;
+}
+
+.readMore {
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .detailImg img {
+    margin-bottom: 0;
+  }
+
+  .detailTile {
+    font-size: 25px;
+    padding-left: 80px;
+  }
+
+  .detailList h6 {
+    font-size: 14px;
+  }
+
+  .detaiDescription {
+    font-size: 15px;
+  }
+}
