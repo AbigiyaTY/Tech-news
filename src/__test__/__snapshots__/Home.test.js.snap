@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+Array [
+  <h3>
+    Latest technology news
+  </h3>,
+  <div
+    className="list-group"
+    onKeyDown={[Function]}
+  >
+    <div
+      className="list-group-item"
+      data-rr-ui-event-key={null}
+      onClick={[Function]}
+    >
+      <h5>
+        Tamil Nadu Assembly passes bill to ban online gambling games
+      </h5>
+    </div>
+  </div>,
+]
+`;

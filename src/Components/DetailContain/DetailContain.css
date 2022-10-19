@@ -35,6 +35,10 @@
   font-size: 14px;
 }
 
+.readMore {
+  padding-right: 10px;
+}
+
 @media screen and (min-width: 600px) {
   .detailImg img {
     margin-bottom: 0;

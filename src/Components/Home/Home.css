@@ -29,13 +29,13 @@
   border: 1px solid #000;
 }
 
-.titleNews:nth-of-type(n + 1) {
+.titleNews:nth-of-type(even) {
   background-color: #c7d9e5;
   color: #000;
   margin-left: -10px;
 }
 
-.titleNews:nth-of-type(n + 3) {
+.titleNews:nth-of-type(odd) {
   background-color: #2a6877;
   color: #fff;
 }
