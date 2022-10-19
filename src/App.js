@@ -10,7 +10,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/detailContain" element={<DetailContain />} />
+        <Route path="/detail/:id" element={<DetailContain />} />
       </Routes>
     </div>
   );

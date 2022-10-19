@@ -1,9 +1,35 @@
-import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { fetchNews } from '../../Redux/DetailNews/AllRed';
 import HomeImg from '../../Image/News.jpg';
 import './Home.css';
 
-function Home() {
+const Home = () => {
+  const { news } = useSelector((state) => state.news);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (news.length === 0) {
+      dispatch(fetchNews());
+    }
+  }, [dispatch, news.length]);
+
+  if (news.length === 0) {
+    return (
+      <div className="container">
+        <div className="row">
+          <div className="col-12 row topHome">
+            <li className="col-6"><img className="homeImg" src={HomeImg} alt="News" /></li>
+            <li className="col-6 homeTitle">
+              Latest technology news Loading ...
+            </li>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="home">
       <div className="container">
@@ -19,39 +45,31 @@ function Home() {
           </div>
           <div className="col-12 containt">
             <ul className="col-12 row">
-              <li className="col-6 titleNews">
-                <NavLink to="/detailContain" className="nav-link">
-                  <i className="fa fa-greater-than py-4" />
-                </NavLink>
-                <h3 className="px-2">
-                  Kanye West to buy right-wing social media app Parler
-                </h3>
-              </li>
-              <li className="col-6 titleNews">
-                <i className="fa fa-greater-than py-4" />
-                <h3 className="px-2">
-                  EU seeks to release Ukrainian grain stuck due to Russia’s sea blockade
-                </h3>
-              </li>
-              <li className="col-6 titleNews">
-                <i className="fa fa-greater-than py-4" />
-                <h3 className="px-2">
-                  Next US election may
-                  prove most dangerous time for Taiwan, warns veteran US diplomat Chas Freeman
-                </h3>
-              </li>
-              <li className="col-6 titleNews">
-                <i className="fa fa-greater-than py-4" />
-                <h3 className="px-2">
-                  EU seeks to release Ukrainian grain stuck due to Russia’s sea blockade
-                </h3>
-              </li>
+              {news.data.map((item) => (
+                <li
+                  className="col-6 titleNews"
+                  key={`${item.id}`}
+                >
+                  <NavLink
+                    state={item}
+                    to={`/detail/${item.id}`}
+                    key={item.id}
+                  >
+                    <i
+                      className="fa fa-greater-than py-4"
+                    />
+                  </NavLink>
+                  <h3 className="px-2">
+                    {item.title}
+                  </h3>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Home;
