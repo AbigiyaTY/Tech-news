@@ -11,11 +11,11 @@
 - Frameworks: Bootstrap, React.
 - Technologies used: webpack, linters, jest.
 
-## Live Demo (if available)
+## Live Demo 
 
 [Live Demo Link](https://tourmaline-syrniki-7038a4.netlify.app/)
 
-## Video Demo (if available)
+## Video Demo 
 
 [Live Demo Link](https://drive.google.com/file/d/1VvS99hrD9Nhmha7rC4d0baYAGVBN1aQG/view?usp=sharing)
 
