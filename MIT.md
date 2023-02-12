@@ -1,6 +1,5 @@
 ## Copyright 2021, [Abigiya Tadesse]
 
-###### Please delete this line and the next one
 ###### Metrics webapp can be a webpage/website, a web app, a software and so on
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this [Metrics webapp] and associated documentation files, to deal in the [Metrics webapp] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [Metrics webapp], and to permit persons to whom the [Metrics webapp] is furnished to do so, subject to the following conditions:
