@@ -2,7 +2,7 @@
 
 # Tech News
 
-> This React capstone project that is about building is a mobile web application to check the latest new in the tech industry. Built with Javascript, React and Redux 
+> Tech News is a react capstone project that is about building is a mobile web application to check the latest new in the tech industry. Built with Javascript, React and Redux 
 
 
 ## Built With
