@@ -2,7 +2,7 @@
 
 # Metrics webapp
 
-> This React capstone project that is about building a mobile web application to check a list of metrics (numeric values) that is created making use of React and Redux.
+> This React capstone project that is about building is a mobile web application to check the latest new in the tech industry. Built with Javascript, React and Redux 
 
 
 ## Built With
