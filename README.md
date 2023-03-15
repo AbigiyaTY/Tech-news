@@ -1,14 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Metrics webapp
+# Tech News
 
-> This React capstone project that is about building a mobile web application to check a list of metrics (numeric values) that is created making use of React and Redux.
+> Tech News is a react capstone project that is about building is a mobile web application to check the latest new in the tech industry. Built with Javascript, React and Redux 
 
 
 ## Built With
 
 - Major languages: HTML, CSS, JavaScript.
-- Frameworks: Bootstrap, React.
+- Frameworks: Bootstrap, React and Redux
 - Technologies used: webpack, linters, jest.
 
 ## Live Demo 
@@ -37,9 +37,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author**
 
-* GitHub: [@githubhandle](https://github.com/AbigiyaTY)
-* Twitter: [@twitterhandle](https://twitter.com/AbigiyaTY)
-* LinkedIn: [@LinkedIn](https://www.linkedin.com/in/abigiya-tadesse-6a0052234)
+* GitHub: [@AbigiyaTY](https://github.com/AbigiyaTY)
+* Twitter: [@AbigiyaTY](https://twitter.com/AbigiyaTY)
+* LinkedIn: [@AbigiyaTY](https://www.linkedin.com/in/Abigiyaty)
 
 
 ## 🤝 Contributing
@@ -60,6 +60,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
