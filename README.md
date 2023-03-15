@@ -13,7 +13,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](https://tourmaline-syrniki-7038a4.netlify.app/)
+[Live Demo Link](https://fluffy-puffpuff-b5d083.netlify.app/)
 
 ## Video Demo 
 
