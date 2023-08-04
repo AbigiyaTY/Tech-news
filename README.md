@@ -13,7 +13,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](https://fluffy-puffpuff-b5d083.netlify.app/)
+[Live Demo Link](https://latest-tech-news.netlify.app/))
 
 ## Video Demo 
 
