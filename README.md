@@ -15,10 +15,6 @@
 
 [Live Demo Link](https://latest-tech-news.netlify.app/))
 
-## Video Demo 
-
-[Live Demo Link](https://drive.google.com/file/d/1VvS99hrD9Nhmha7rC4d0baYAGVBN1aQG/view?usp=sharing)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
