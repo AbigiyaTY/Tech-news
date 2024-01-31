@@ -11,10 +11,6 @@
 - Frameworks: Bootstrap, React and Redux
 - Technologies used: webpack, linters, jest.
 
-## Live Demo 
-
-[Live Demo Link](https://latest-tech-news.netlify.app/))
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
